@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Interview App</title>
+</head>
+<body>
+    <main>
+        <section id="register-section">
+            <input type="text" id="register-username" placeholder="Username">
+            <input type="password" id="register-password" placeholder="Password">
+            <button id="register-button">Register</button>
+        </section>
+
+        <section id="login-section">
+            <input type="text" id="login-username" placeholder="Username">
+            <input type="password" id="login-password" placeholder="Password">
+            <button id="login-button">Login</button>
+        </section>
+
+        <button id="switch-button">Switch to Login</button>
+
+        <section id="role-selection" style="display: none;">
+            <select id="role-select">
+                <option value="No selected" selected>No selected</option><option value="Software Engineer">Software Engineer</option><option value="Data Scientist">Data Scientist</option>
+            </select>
+
+            <select id="level-select"><option value="No selected" selected>No selected</option><option value="Junior">Junior</option><option value="Mid-level">Mid-level</option><option value="Senior">Senior</option>
+            </select>
+        </section>
+        <section id="question-display" style="display: none;" >
+            <!-- Question will be displayed here -->
+        </section>
+        <section id="response-input" style="display: none;" >
+            <textarea id="response-text" placeholder="Your answer"></textarea>
+        </section>
+        <section id="timer-display" style="display: none;" >
+            <!-- Timer will be displayed here -->
+        </section>
+        <button id="start-button" style="display: none;">Start Interview</button>
+        <button id="next-button" style="display: none;">Next Question</button>
+        <button id="finish-button" style="display: none;">Finish Interview</button>
+    </main>
+</body>
+</html>

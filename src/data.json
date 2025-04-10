@@ -1,0 +1,165 @@
+[
+  {
+    "role": "Software Engineer",
+    "level": "Junior",
+    "questions": [
+      {
+        "text": "Explain the concept of a variable.",
+        "followUps": []
+      },
+      {
+        "text": "What is an array?",
+        "followUps": []
+      },
+      {
+        "text": "Describe your experience with version control.",
+        "followUps": [
+          "What version control systems have you used?",
+          "Describe a situation where version control helped you resolve a conflict."
+        ]
+      },
+      {
+        "text": "What is the difference between let, var and const?",
+        "followUps": []
+      },
+      {
+        "text": "Explain what is the concept of scope.",
+        "followUps": [
+          "Can you give an example of a global and local scope?"
+        ]
+      }
+    ]
+  },
+  {
+    "role": "Software Engineer",
+    "level": "Mid-level",
+    "questions": [
+      "Describe the difference between an interface and an abstract class.",
+      {
+        "text": "Explain how you would optimize a slow-running function.",
+        "followUps": [
+          "Can you provide an example of a common performance bottleneck in JavaScript applications?",
+          "What tools would you use to identify performance issues?"
+        ]
+      },
+      {
+        "text": "How do you approach debugging?",
+        "followUps": []
+      },
+      {
+        "text": "Explain the SOLID principles.",
+        "followUps": []
+      },
+      {
+        "text": "What is the concept of design patterns?",
+        "followUps": [
+          "Describe a scenario where you would use the Observer pattern.",
+          "Give an example of the Factory pattern."
+        ]
+      }
+    ]
+  },
+  {
+    "role": "Software Engineer",
+    "level": "Senior",
+    "questions": [
+      "Describe your experience with microservices architecture.",
+      {
+        "text": "How do you ensure code quality in a team environment?",
+        "followUps": [
+          "What is your approach to code reviews?",
+          "How do you promote best practices within the team?"
+        ]
+      },
+      {
+        "text": "Explain your experience with different testing methodologies.",
+        "followUps": []
+      },
+      {
+        "text": "Describe the steps you would take to design a scalable system.",
+        "followUps": []
+      },
+      {
+        "text": "What is the importance of code review?",
+        "followUps": [
+          "What are some common things you look for during a code review?"
+        ]
+      }
+    ]
+  },
+  {
+    "role": "Data Scientist",
+    "level": "Junior",
+    "questions": [
+      "Explain the difference between supervised and unsupervised learning.",
+      {
+        "text": "What is a confusion matrix?",
+        "followUps": [
+          "Explain the meaning of precision and recall."
+        ]
+      },
+      {
+        "text": "Describe your experience with data cleaning.",
+        "followUps": []
+      },
+      {
+        "text": "What is the concept of correlation?",
+        "followUps": [
+          "What's the difference between correlation and causation?"
+        ]
+      },
+      {
+        "text": "Explain what is a bias-variance tradeoff.",
+        "followUps": [
+          "How can you address high bias in a model?",
+          "How can you address high variance in a model?"
+        ]
+      }
+    ]
+  },
+  {
+    "role": "Data Scientist",
+    "level": "Mid-level",
+    "questions": [
+      "Explain the concept of regularization.",
+      {
+        "text": "Discuss techniques for handling imbalanced datasets.",
+        "followUps": [
+          "Can you provide an example of a situation where handling imbalanced data is crucial?"
+        ]
+      },
+      {
+        "text": "Describe your experience with deploying machine learning models.",
+        "followUps": []
+      },
+      {
+        "text": "What is the difference between L1 and L2 regularization?",
+        "followUps": []
+      },
+      {
+        "text": "Explain how to handle missing values in a dataset.",
+        "followUps": [
+          "What are the potential drawbacks of imputing missing values with the mean?",
+          "Describe a situation where you might choose to drop rows with missing values instead of imputing them."
+        ]
+      }
+    ]
+  },
+  {
+    "role": "Data Scientist",
+    "level": "Senior",
+    "questions": [
+      "Discuss your experience in building recommendation systems.",
+      "How do you evaluate the performance of a machine learning model?",
+      "Explain your experience with deep learning.",
+      "Describe your experience in deploying machine learning models to production.",
+      {
+        "text": "Explain the concept of model versioning.",
+        "followUps": [
+          "What tools or platforms have you used for model versioning?",
+          "Describe a scenario where model versioning helped you troubleshoot an issue."
+        ]
+      }
+    ]
+  }
+]
